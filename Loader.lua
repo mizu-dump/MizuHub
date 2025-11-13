@@ -63,7 +63,7 @@ local HttpService = game:GetService("HttpService")
 -- 🔹 Join MizuHub Now!
 if not Enabled then
     setclipboard(Dc)
-    LocalPlayer:Kick("Failed To Authorize!\nDiscord : " .. Dc)
+    LocalPlayer:Kick("Script Is Updating.\nDiscord : " .. Dc)
     return
 end
 
